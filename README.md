@@ -31,4 +31,16 @@ Welcome to **SnapStack**, a responsive and stylish landing page layout built wit
 ---
 
 ## 📁 Folder Structure
-<pre lang="text"> 📁 FirstBootStrapLayout/ ├── css/ │ ├── bootstrap.min.css │ └── main.css ├── js/ │ └── bootstrap.min.js ├── img/ │ ├── 1.png │ ├── 2.avif │ └── 3.png ├── index.html └── README.md </pre>
+📁 FirstBootStrapLayout/<br>
+├── css/<br>
+│   ├── bootstrap.min.css<br>
+│   └── main.css<br>
+├── js/<br>
+│   └── bootstrap.min.js<br>
+├── img/<br>
+│   ├── 1.png<br>
+│   ├── 2.avif<br>
+│   └── 3.png<br>
+├── index.html<br>
+└── README.md<br>
+
