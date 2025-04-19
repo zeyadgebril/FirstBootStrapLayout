@@ -4,7 +4,8 @@ Welcome to **SnapStack**, a responsive and stylish landing page layout built wit
 
 ## 🔗 Live Demo
 
-👉 [Check it out here](https://zeyadgebril.github.io/FirstBootStrapLayout/)
+👉 [Check it out here](https://zeyadgebril.github.io/FirstBootStrapLayout/){:target="_blank"}
+
 
 ---
 
