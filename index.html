@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- BootStrap CSS -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- main css -->
+
+    <!-- BootStrap JS -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- BootStrap JS -->
+
+    <!-- Font Aowesome -->
+    <!-- Font Awesome 6+ (Modern) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Font Aowesome -->
+  </head>
+  <body>
+    <div class="mainwrapper">
+      <!-- nav Bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand" href="#"
+            >Website <span class="text-success">Name</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                  >content</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                  >info</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                  >contact us</a
+                >
+              </li>
+
+              <li class="nav-item d-none d-lg-flex spicial-border">
+                <a
+                  class="nav-link active nav-link-hover"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i
+                    class="fa-solid fa-magnifying-glass align-content-center"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav Bar -->
+
+      <!-- colorfull hr -->
+      <hr class="fancy-hr" />
+      <!-- colorfull hr -->
+
+      <!-- img slider carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="./img/1.png"
+              class="d-block img-fluid mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./img/2.avif"
+              class="d-block img-fluid align-items-center mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/3.png"
+              class="d-block img-fluid mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- img slider carousel -->
+
+      <!-- our message contaner  -->
+      <div
+        class="container-fluid min-coustom-height d-flex justify-content-center"
+      >
+        <p class="my-auto text-uppercase text-black-50s">
+          <span class="fw-bold">our message</span> As a fullstack .NET croc, I
+          keep it low on the frontend to stay sleek — but tall enough to bite
+          through the backend!! 🐊💻🦴.
+        </p>
+      </div>
+      <!-- our message contaner  -->
+
+      <!-- products contaner  -->
+      <div class="container-fluid bg-coustom-color">
+        <div class="row d-flex justify-content-center">
+          <!-- product-1 -->
+          <div class="col-lg-4 d-flex flex-column align-items-center py-4">
+            <div
+              class="d-flex flex-row flex-lg-column align-items-start align-items-lg-center w-100"
+            >
+              <!-- ICON -->
+              <div class="me-3">
+                <i class="fa-solid fa-hand fa-5x my-3"></i>
+              </div>
+
+              <!-- ICON HEADER + BODY grouped together -->
+              <div>
+                <!-- ICON HEADER -->
+                <h2 class="text-uppercase text-lg-center">SnapStack</h2>
+
+                <!-- ICON BODY -->
+                <p class="text-start text-lg-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus accusantium sunt asperiores, earum doloremque
+                  sapiente, perspiciatis repellendus soluta harum dolore laborum
+                  quis animi, excepturi facere assumenda consectetur illum
+                  impedit eius.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product-1 -->
+
+          <!-- product-2 -->
+          <div class="col-lg-4 d-flex flex-column align-items-center py-4">
+            <div
+              class="d-flex flex-row flex-lg-column align-items-start align-items-lg-center w-100"
+            >
+              <!-- ICON -->
+              <div class="me-3">
+                <i class="fa-solid fa-phone fa-5x my-3"></i>
+              </div>
+
+              <!-- ICON HEADER + BODY grouped together -->
+              <div>
+                <!-- ICON HEADER -->
+                <h2 class="text-uppercase text-lg-center">GatorGrid</h2>
+
+                <!-- ICON BODY -->
+                <p class="text-start text-lg-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus accusantium sunt asperiores, earum doloremque
+                  sapiente, perspiciatis repellendus soluta harum dolore laborum
+                  quis animi, excepturi facere assumenda consectetur illum
+                  impedit eius.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product-2 -->
+
+          <!-- product-3 -->
+          <div class="col-lg-4 d-flex flex-column align-items-center py-4">
+            <div
+              class="d-flex flex-row flex-lg-column align-items-start align-items-lg-center w-100"
+            >
+              <!-- ICON -->
+              <div class="me-3">
+                <i class="fa-solid fa-person fa-5x my-3"></i>
+              </div>
+
+              <!-- ICON HEADER + BODY grouped together -->
+              <div>
+                <!-- ICON HEADER -->
+                <h2 class="text-uppercase text-lg-center">CrocCore</h2>
+
+                <!-- ICON BODY -->
+                <p class="text-start text-lg-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus accusantium sunt asperiores, earum doloremque
+                  sapiente, perspiciatis repellendus soluta harum dolore laborum
+                  quis animi, excepturi facere assumenda consectetur illum
+                  impedit eius.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product-3 -->
+        </div>
+      </div>
+      <!-- products contaner  -->
+
+      <!-- colorfull hr -->
+      <hr class="fancy-hr" />
+      <!-- colorfull hr -->
+
+      <!-- Footer Contanet -->
+      <footer class="container-fluid">
+        <div>
+          <p class="text-center">
+            &copy; 2025 <span class="text-success">Website Name</span> | All
+            Rights Reserved | Terms of Use | Privacy Policy
+          </p>
+        </div>
+      </footer>
+      <!-- Footer Contanet -->
+    </div>
+  </body>
+</html>

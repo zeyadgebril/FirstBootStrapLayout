@@ -1,0 +1,46 @@
+:root {
+  --green-color: rgb(57, 190, 169);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.nav-link-hover {
+  color: rgb(0, 0, 0) !important;
+}
+
+.nav-link-hover:hover {
+  color: var(--green-color) !important;
+}
+
+button {
+  border: none !important;
+}
+
+.fancy-hr {
+  border: 0;
+  height: 6px;
+  background: linear-gradient(
+    to right,
+    #f1fd0d,
+    #41dd36,
+    #098700,
+    #862fdd,
+    #1aabdf,
+    #2f3bdd
+  );
+  border-radius: 2px;
+  margin: 0;
+}
+.min-coustom-height {
+  min-height: 15px;
+  background-color: rgb(248, 249, 250);
+}
+.bg-coustom-color {
+  background-color: rgb(241, 241, 243) !important;
+}
+.spicial-border {
+  border-left: 2px solid var(--green-color) !important;
+}
