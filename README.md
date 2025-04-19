@@ -44,3 +44,32 @@ Welcome to **SnapStack**, a responsive and stylish landing page layout built wit
 ├── index.html<br>
 └── README.md<br>
 
+
+---
+
+## 🐊 Message from the Croc
+
+> “As a fullstack .NET croc, I keep it low on the frontend to stay sleek — but tall enough to bite through the backend!! 🐊💻🦴”
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/zeyadgebril/FirstBootStrapLayout.git
+2. Open index.html in your browser.
+
+3. That's it — snap it like a croc!
+
+📬 Contact
+Made with 💚 by Zeyad Gebril
+Let’s connect, code, and snap bugs together.
+
+📄 License
+This project is open-source and free to use under the MIT License.
+
+---
+
+Let me know if you want to auto-generate a cool preview image (`screenshot.png`) or style the `main.css` section too!
+
