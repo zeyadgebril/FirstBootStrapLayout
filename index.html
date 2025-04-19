@@ -27,7 +27,7 @@
   <body>
     <div class="mainwrapper">
       <!-- nav Bar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white">
         <div class="container d-flex justify-content-between">
           <a class="navbar-brand" href="#"
             >Website <span class="text-success">Name</span></a
@@ -91,15 +91,75 @@
               </li>
 
               <li class="nav-item d-none d-lg-flex spicial-border">
-                <a
-                  class="nav-link active nav-link-hover"
-                  aria-current="page"
-                  href="#"
+                <button
+                  type="button"
+                  class="btn btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
                 >
                   <i
                     class="fa-solid fa-magnifying-glass align-content-center"
-                  ></i
-                ></a>
+                  ></i>
+                </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Modal title
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Search Bar -->
+                        <form action="#">
+                          <div class="row">
+                            <div class="col-10">
+                              <input
+                                type="search"
+                                name="Search"
+                                id="Search"
+                                placeholder="Search"
+                                class="form-control w-100"
+                              />
+                            </div>
+                            <div
+                              class="col-2 my-auto d-flex justify-content-end"
+                            >
+                              <button type="submit" class="btn btn-success">
+                                Search
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                        <!-- Search Bar -->
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -136,7 +196,7 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="carousel-item active" data-bs-interval="1000">
             <img
               src="./img/1.png"
               class="d-block img-fluid mx-auto"
@@ -149,7 +209,7 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-item" data-bs-interval="1000">
             <img
               src="./img/2.avif"
               class="d-block img-fluid align-items-center mx-auto"
@@ -228,7 +288,7 @@
                 <h2 class="text-uppercase text-lg-center">SnapStack</h2>
 
                 <!-- ICON BODY -->
-                <p class="text-start text-lg-center">
+                <p class="text-start text-lg-center text-black-50">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus accusantium sunt asperiores, earum doloremque
                   sapiente, perspiciatis repellendus soluta harum dolore laborum
@@ -256,7 +316,7 @@
                 <h2 class="text-uppercase text-lg-center">GatorGrid</h2>
 
                 <!-- ICON BODY -->
-                <p class="text-start text-lg-center">
+                <p class="text-start text-lg-center text-black-50">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus accusantium sunt asperiores, earum doloremque
                   sapiente, perspiciatis repellendus soluta harum dolore laborum
@@ -284,7 +344,7 @@
                 <h2 class="text-uppercase text-lg-center">CrocCore</h2>
 
                 <!-- ICON BODY -->
-                <p class="text-start text-lg-center">
+                <p class="text-start text-lg-center text-black-50">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus accusantium sunt asperiores, earum doloremque
                   sapiente, perspiciatis repellendus soluta harum dolore laborum
@@ -299,6 +359,37 @@
       </div>
       <!-- products contaner  -->
 
+      <!-- img galary -->
+      <div class="container-fluid">
+        <div class="row g-0">
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="box col-6 col-lg-3 img-active d-block">
+            <img src="./img/q.jpeg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- img galary -->
+
       <!-- colorfull hr -->
       <hr class="fancy-hr" />
       <!-- colorfull hr -->
@@ -306,7 +397,7 @@
       <!-- Footer Contanet -->
       <footer class="container-fluid">
         <div>
-          <p class="text-center">
+          <p class="text-center pt-2">
             &copy; 2025 <span class="text-success">Website Name</span> | All
             Rights Reserved | Terms of Use | Privacy Policy
           </p>
